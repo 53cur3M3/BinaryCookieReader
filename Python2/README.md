@@ -4,6 +4,7 @@ Cloned from http://securitylearn.net/wp-content/uploads/tools/iOS/BinaryCookieRe
 Docker container created to run this Python2 script
 
 ##Usage
+
 `
 docker build -t binary-cookie-reader .
 docker run --rm -v "$(pwd):/data" binary-cookie-reader /data/Cookies.binarycookies

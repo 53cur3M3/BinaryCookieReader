@@ -8,6 +8,7 @@ Docker container created to run this Python2 script
 
 `
 docker build -t binary-cookie-reader .
+
 docker run --rm -v "$(pwd):/data" binary-cookie-reader /data/Cookies.binarycookies
 `
 

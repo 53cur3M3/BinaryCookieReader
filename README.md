@@ -1,6 +1,7 @@
 # BinaryCookieReader
 
-Cloned from http://securitylearn.net/wp-content/uploads/tools/iOS/BinaryCookieReader.py
+The original project written by Satishb3 is not maintained anymore.
+
 Updated to use Python3
 
 ##Usage

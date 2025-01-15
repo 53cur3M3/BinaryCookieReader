@@ -1,12 +1,12 @@
 # BinaryCookieReader
 
 Cloned from http://securitylearn.net/wp-content/uploads/tools/iOS/BinaryCookieReader.py
-Updated to use Python3
+Docker container created to run this Python2 script
 
 ##Usage
-
 `
-python3 BinaryCookieReader.py [Cookie.binarycookies-file-path]
+docker build -t binary-cookie-reader .
+docker run --rm -v "$(pwd):/data" binary-cookie-reader /data/Cookies.binarycookies
 `
 
 ##Cookies.binarycookies Format

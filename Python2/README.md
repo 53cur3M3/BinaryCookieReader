@@ -6,11 +6,9 @@ Docker container created to run this Python2 script
 
 ##Usage
 
-`
-docker build -t binary-cookie-reader .
+`docker build -t binary-cookie-reader .`
 
-docker run --rm -v "$(pwd):/data" binary-cookie-reader /data/Cookies.binarycookies
-`
+`docker run --rm -v "$(pwd):/data" binary-cookie-reader /data/Cookies.binarycookies`
 
 ##Cookies.binarycookies Format
 
